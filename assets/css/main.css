@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Custom dark mode variant - uses class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Font configuration - Force Poppins everywhere */
+* {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+html,
+body,
+div,
+p,
+span,
+button,
+input,
+textarea {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Headlines use Poppins Semibold */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 600 !important;
+}
