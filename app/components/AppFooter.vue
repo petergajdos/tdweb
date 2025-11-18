@@ -2,7 +2,7 @@
   <!-- Footer -->
   <footer class="backdrop-blur-lg py-6 px-4 sm:px-6">
     <div class="max-w-[960px] mx-auto">
-      <div class="rounded-full border border-white/10 px-4 sm:px-6 py-3 sm:py-4 flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6">
+      <div class="px-4 sm:px-6 py-3 sm:py-4 flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6">
         <!-- Logo Icon -->
         <a href="/" class="flex items-center flex-shrink-0">
           <img src="https://www.figma.com/api/mcp/asset/72947c2c-e084-441b-b1ff-428b07d05902" alt="TeamDay" class="w-6 h-6 object-contain" />
