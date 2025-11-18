@@ -16,10 +16,10 @@ const claudeIcon = 'https://www.figma.com/api/mcp/asset/31221167-b474-4e64-9806-
 const openaiIcon = 'https://www.figma.com/api/mcp/asset/daeab4d9-16fb-4eef-947c-0ad42f29ea58'
 const cashflowDashboard = 'https://www.figma.com/api/mcp/asset/18657e96-cedf-473e-8ba4-73c7ddf755e1'
 const arrowUpIcon = 'https://www.figma.com/api/mcp/asset/f31c55a0-36ef-4ac5-a05d-c416f9b68eab'
-const ellipseGlowPurple = 'https://www.figma.com/api/mcp/asset/3ce26564-79dd-4482-b500-9679957e9737'
-const ellipseGlowPurpleInner = 'https://www.figma.com/api/mcp/asset/f75e90ca-53d7-4aac-a814-2596fbab0afa'
-const ellipseGlowCyan = 'https://www.figma.com/api/mcp/asset/e67bae28-95ea-4885-b16c-eed4600b2e1a'
-const ellipseGlowCyanInner = 'https://www.figma.com/api/mcp/asset/25a25eeb-413b-4c47-8e1b-031dd4f6842c'
+const ellipseGlowPurple = 'https://www.figma.com/api/mcp/asset/b9b246b8-4f2f-4586-b26f-67625263360e'
+const ellipseGlowPurpleInner = 'https://www.figma.com/api/mcp/asset/3864c370-bd4a-4a63-b700-573209e2406e'
+const ellipseGlowCyan = 'https://www.figma.com/api/mcp/asset/c68e6800-25bc-4756-87c2-639c16b9e4b1'
+const ellipseGlowCyanInner = 'https://www.figma.com/api/mcp/asset/220eef08-89e4-48be-9ddd-dc75e4dee36a'
 
 // Metrics data
 const metrics = [
