@@ -10,10 +10,10 @@
 
         <!-- Navigation Links -->
         <nav class="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-          <a href="#" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Terms</a>
-          <a href="#" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Privacy</a>
-          <a href="#" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Data</a>
-          <a href="#" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">About</a>
+          <a href="https://www.teamday.ai/d/terms" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Terms</a>
+          <a href="https://www.teamday.ai/d/privacy" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Privacy</a>
+          <a href="https://www.teamday.ai/d/data" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">Data</a>
+          <a href="https://www.teamday.ai/about" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">About</a>
         </nav>
 
         <!-- Copyright and Social Icons -->
