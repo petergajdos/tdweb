@@ -14,8 +14,8 @@ const { parallaxRef: agent1Ref, transform: agent1Transform } = useParallax(-0.2)
 const { parallaxRef: agent2Ref, transform: agent2Transform } = useParallax(-0.2)
 
 // Model/Lab icons from Figma
-const iconClaude = 'https://www.figma.com/api/mcp/asset/63fb80ea-69b9-4934-87db-b2d59a8cc7ec'
-const iconOpenAI = 'https://www.figma.com/api/mcp/asset/dc5f5539-b5ed-4879-b9c6-1deaf72a562b'
+const iconClaude = 'https://www.figma.com/api/mcp/asset/31ce75ca-5f1c-4ccc-a971-9649d11a4c16'
+const iconOpenAI = 'https://www.figma.com/api/mcp/asset/f1477ddf-d85c-4bec-8390-2a91ddf28188'
 const iconGemini = 'https://www.figma.com/api/mcp/asset/8a111fa3-27eb-4095-8c30-1a65cdfd5c80'
 
 // Agent + Chart composite images from Figma (updated)
