@@ -410,17 +410,17 @@ onMounted(() => {
         <!-- Integration Badges Row -->
         <div class="flex flex-wrap items-center justify-center gap-6 mb-8 sm:mb-12">
           <!-- Teamday Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[24px] p-6">
             <img :src="teamdayIcon" alt="Teamday" class="w-[29px] h-[29px] object-contain" />
           </div>
 
           <!-- CubeD3 Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[24px] p-6">
             <img :src="cubeD3Logo" alt="CubeD3" class="w-[132px] h-[29px] object-contain" />
           </div>
 
           <!-- AI Labs Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[24px] p-6">
             <img :src="claudeIcon" alt="Claude" class="w-[29px] h-[29px] object-contain" />
             <img :src="openaiIcon" alt="OpenAI" class="w-[29px] h-[29px] object-contain" />
           </div>
