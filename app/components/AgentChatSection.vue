@@ -33,7 +33,7 @@ const suggestions = [
 
 // Asset URLs from Figma
 const dashboardImage = 'https://www.figma.com/api/mcp/asset/d3dbf4d4-55a4-4683-9859-b7171deccd31'
-const arrowIcon = 'https://www.figma.com/api/mcp/asset/e4da4fe7-92b5-4ec5-b69f-836043a0544b'
+const arrowIcon = '/images/icons/arrow-up.svg'
 </script>
 
 <template>
