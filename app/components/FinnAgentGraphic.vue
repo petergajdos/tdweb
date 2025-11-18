@@ -19,8 +19,8 @@ const integrations = [
   { name: 'Google Sheets', image: '/images/icons/sheets.svg', offset: -20 },
   { name: 'Xero', image: '/images/icons/xero.svg', offset: 20 },
   { name: 'Slack', image: '/images/icons/slack.svg', offset: 40 },
-  { name: 'PayPal', image: 'https://www.figma.com/api/mcp/asset/06f9a31d-fa0e-4a6c-88f6-5eeeca1b6a56', offset: 20 },
-  { name: 'Stripe', image: 'https://www.figma.com/api/mcp/asset/2cebcea4-4e2d-41e2-a8da-2fe08de1c525', offset: -20 }
+  { name: 'PayPal', image: 'https://www.figma.com/api/mcp/asset/808b11df-7b09-4e2d-910a-778a7413ba3d', offset: 20 },
+  { name: 'Stripe', image: 'https://www.figma.com/api/mcp/asset/856d6d9a-aba3-4453-a1bb-658db86dd118', offset: -20, isStripe: true }
 ]
 </script>
 
@@ -62,7 +62,12 @@ const integrations = [
         class="flex items-center justify-center w-[56px] h-[56px] sm:w-[68px] sm:h-[68px] rounded-[20px] sm:rounded-[24px] bg-white/80 dark:bg-white/5 backdrop-blur-[25px] border border-gray-200/50 dark:border-white/10 transition-transform hover:scale-110"
         :style="{ transform: `translateX(${integration.offset}px)` }"
       >
-        <img :src="integration.image" :alt="integration.name" class="w-7 h-7 object-contain" loading="lazy" />
+        <!-- Stripe needs special purple background container -->
+        <div v-if="integration.isStripe" class="w-7 h-7 bg-[#635bff] rounded-[6px] flex items-center justify-center p-[4px]">
+          <img :src="integration.image" :alt="integration.name" class="w-full h-full object-contain" loading="lazy" />
+        </div>
+        <!-- Other icons render directly -->
+        <img v-else :src="integration.image" :alt="integration.name" class="w-7 h-7 object-contain" loading="lazy" />
       </div>
     </div>
   </div>
