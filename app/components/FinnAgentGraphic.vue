@@ -19,7 +19,7 @@ const integrations = [
   { name: 'Google Sheets', image: '/images/icons/sheets.svg', offset: -20 },
   { name: 'Xero', image: '/images/icons/xero.svg', offset: 20 },
   { name: 'Slack', image: '/images/icons/slack.svg', offset: 40 },
-  { name: 'PayPal', image: 'https://www.figma.com/api/mcp/asset/808b11df-7b09-4e2d-910a-778a7413ba3d', offset: 20 },
+  { name: 'PayPal', image: 'https://www.figma.com/api/mcp/asset/287de06d-6aa1-4521-886f-c0b695c1defc', offset: 20 },
   { name: 'Stripe', image: 'https://www.figma.com/api/mcp/asset/856d6d9a-aba3-4453-a1bb-658db86dd118', offset: -20, isStripe: true }
 ]
 </script>
