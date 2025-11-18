@@ -417,7 +417,7 @@ const ellipseGlowCyanInner = 'https://www.figma.com/api/mcp/asset/220eef08-89e4-
               <!-- Heading and Description -->
               <div class="flex flex-col items-center gap-3 text-center max-w-[991px]">
                 <h2 class="text-[24px] sm:text-[32px] xl:text-[36px] font-semibold leading-[1.2] tracking-[-0.02em] capitalize text-white">
-                  Ready to Hire Sarah as Your Data Analyst?
+                  Ready to Hire Alice as Your Data Analyst?
                 </h2>
                 <p class="text-[16px] sm:text-[18px] leading-normal text-white/90">
                   Start your free trial. No credit card required.
