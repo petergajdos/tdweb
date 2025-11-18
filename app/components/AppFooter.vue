@@ -16,10 +16,10 @@
           <a href="https://www.teamday.ai/about" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-[#6c5d73] hover:text-white transition-colors whitespace-nowrap py-5">About</a>
         </nav>
 
-        <!-- Copyright and Social Icons -->
-        <div class="flex items-center gap-[5px] flex-shrink-0">
-          <span class="text-sm font-medium text-[#6c5d73] whitespace-nowrap hidden sm:inline pr-5 py-5">© 2025 Made by TeamDay</span>
-          <div class="flex gap-0 items-center">
+        <!-- Social Icons and Copyright - separate rows on mobile -->
+        <div class="flex flex-col lg:flex-row items-center gap-3 lg:gap-[5px] flex-shrink-0">
+          <!-- Social Icons -->
+          <div class="flex gap-0 items-center order-2 lg:order-2">
             <!-- LinkedIn -->
             <a href="https://www.linkedin.com/company/teamday-ai" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-white/5 transition-all flex-shrink-0">
               <img src="https://www.figma.com/api/mcp/asset/a3657d7c-9fef-495b-8353-b66865e76893" alt="LinkedIn" class="w-4 h-4 object-contain" />
@@ -29,7 +29,8 @@
               <img src="https://www.figma.com/api/mcp/asset/d9608d9a-5079-4a38-95d0-0f1b046c2c66" alt="Discord" class="w-4 h-4 object-contain" />
             </a>
           </div>
-          <span class="text-sm font-medium text-[#6c5d73] whitespace-nowrap sm:hidden py-5">© 2025 TeamDay</span>
+          <!-- Copyright - separate row on mobile, inline on desktop -->
+          <span class="text-sm font-medium text-[#6c5d73] whitespace-nowrap lg:pr-5 py-5 order-1 lg:order-1">© 2025 Made by TeamDay</span>
         </div>
       </div>
     </div>
