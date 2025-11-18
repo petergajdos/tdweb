@@ -11,9 +11,10 @@ const stripeIcon = 'https://www.figma.com/api/mcp/asset/2cebcea4-4e2d-41e2-a8da-
 const chartImage = 'https://www.figma.com/api/mcp/asset/09919e9b-5384-4f42-ad1b-017906939c1d'
 const architectureImage = 'https://www.figma.com/api/mcp/asset/b2fcd386-85e6-457f-8975-3d12b1a4d6a7'
 const teamdayLogo = 'https://www.figma.com/api/mcp/asset/b4891670-cd7e-4948-9d44-63b5d9a1da56'
-const cubeD3Logo = '/images/icons/cubed3.svg'
-const claudeIcon = '/images/icons/claude.svg'
-const openaiIcon = '/images/icons/openai.svg'
+const teamdayIcon = 'https://www.figma.com/api/mcp/asset/7b0503fe-ddd7-43f0-87a3-1f7266619a72'
+const cubeD3Logo = 'https://www.figma.com/api/mcp/asset/8b89a934-27ee-44a7-aa19-e861f49ed80c'
+const claudeIcon = 'https://www.figma.com/api/mcp/asset/31ce75ca-5f1c-4ccc-a971-9649d11a4c16'
+const openaiIcon = 'https://www.figma.com/api/mcp/asset/f1477ddf-d85c-4bec-8390-2a91ddf28188'
 const cashflowDashboard = 'https://www.figma.com/api/mcp/asset/18657e96-cedf-473e-8ba4-73c7ddf755e1'
 const arrowUpIcon = '/images/icons/arrow-up.svg'
 const ellipseGlowPurple = 'https://www.figma.com/api/mcp/asset/b9b246b8-4f2f-4586-b26f-67625263360e'
@@ -407,21 +408,21 @@ onMounted(() => {
     <section class="py-12 sm:py-16 xl:py-24">
       <div class="max-w-[1440px] mx-auto px-4 md:px-8">
         <!-- Integration Badges Row -->
-        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
+        <div class="flex flex-wrap items-center justify-center gap-6 mb-8 sm:mb-12">
           <!-- Teamday Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[20px] sm:rounded-[24px] p-4 sm:p-6">
-            <img src="/images/logo.svg" alt="Teamday" class="h-[24px] sm:h-[29px] w-auto object-contain" />
+          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+            <img :src="teamdayIcon" alt="Teamday" class="w-[29px] h-[29px] object-contain" />
           </div>
 
           <!-- CubeD3 Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[20px] sm:rounded-[24px] p-4 sm:p-6">
-            <img :src="cubeD3Logo" alt="CubeD3" class="w-[110px] sm:w-[132px] h-[24px] sm:h-[29px] object-contain" />
+          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+            <img :src="cubeD3Logo" alt="CubeD3" class="w-[132px] h-[29px] object-contain" />
           </div>
 
           <!-- AI Labs Badge -->
-          <div class="flex items-center gap-3 border border-dashed border-white/20 rounded-[20px] sm:rounded-[24px] p-4 sm:p-6">
-            <img :src="claudeIcon" alt="Claude" class="w-[24px] sm:w-[29px] h-[24px] sm:h-[29px] object-contain" />
-            <img :src="openaiIcon" alt="OpenAI" class="w-[24px] sm:w-[29px] h-[24px] sm:h-[29px] object-contain" />
+          <div class="flex items-center gap-3 border border-dashed border-[#d8d2da] rounded-[24px] p-6">
+            <img :src="claudeIcon" alt="Claude" class="w-[29px] h-[29px] object-contain" />
+            <img :src="openaiIcon" alt="OpenAI" class="w-[29px] h-[29px] object-contain" />
           </div>
         </div>
 
