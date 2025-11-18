@@ -22,11 +22,11 @@
           <div class="flex gap-0 items-center">
             <!-- LinkedIn -->
             <a href="https://www.linkedin.com/company/teamday-ai" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-white/5 transition-all flex-shrink-0">
-              <img src="https://www.figma.com/api/mcp/asset/a3657d7c-9fef-495b-8353-b66865e76893" alt="LinkedIn" class="h-4 w-auto object-contain" />
+              <img src="https://www.figma.com/api/mcp/asset/a3657d7c-9fef-495b-8353-b66865e76893" alt="LinkedIn" class="w-4 h-4 object-contain" />
             </a>
             <!-- Discord -->
             <a href="https://discord.gg/DbUyE6b4t5" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-white/5 transition-all flex-shrink-0">
-              <img src="https://www.figma.com/api/mcp/asset/d9608d9a-5079-4a38-95d0-0f1b046c2c66" alt="Discord" class="h-4 w-auto object-contain" />
+              <img src="https://www.figma.com/api/mcp/asset/d9608d9a-5079-4a38-95d0-0f1b046c2c66" alt="Discord" class="w-4 h-4 object-contain" />
             </a>
           </div>
           <span class="text-sm font-medium text-[#6c5d73] whitespace-nowrap sm:hidden py-5">© 2025 TeamDay</span>
