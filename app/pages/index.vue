@@ -353,7 +353,7 @@ const iconSlack = 'https://www.figma.com/api/mcp/asset/4da517fc-0202-4293-918d-4
           <!-- Agent Graphic - First on mobile, Left on desktop -->
           <div
             ref="aliceParallaxRef"
-            class="w-full xl:w-auto flex justify-center xl:block"
+            class="w-full xl:w-auto flex justify-center xl:block xl:mt-12"
             :style="{ transform: aliceTransform, willChange: 'transform' }"
           >
             <HeroAgentGraphic />
@@ -397,7 +397,7 @@ const iconSlack = 'https://www.figma.com/api/mcp/asset/4da517fc-0202-4293-918d-4
           <!-- Left Content - Agent Graphic -->
           <div
             ref="finnParallaxRef"
-            class="w-full xl:w-auto flex justify-center xl:block"
+            class="w-full xl:w-auto flex justify-center xl:block xl:mt-12"
             :style="{ transform: finnTransform, willChange: 'transform' }"
           >
             <FinnAgentGraphic />
