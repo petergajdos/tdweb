@@ -19,8 +19,8 @@ const integrations = [
   { name: 'Google Sheets', image: '/images/icons/sheets.svg', offset: -20 },
   { name: 'Xero', image: '/images/icons/xero.svg', offset: 20 },
   { name: 'Slack', image: '/images/icons/slack.svg', offset: 40 },
-  { name: 'PayPal', image: '/images/icons/paypal.svg', offset: 20 },
-  { name: 'Stripe', image: '/images/icons/stripe.svg', offset: -20 }
+  { name: 'PayPal', image: 'https://www.figma.com/api/mcp/asset/06f9a31d-fa0e-4a6c-88f6-5eeeca1b6a56', offset: 20 },
+  { name: 'Stripe', image: 'https://www.figma.com/api/mcp/asset/2cebcea4-4e2d-41e2-a8da-2fe08de1c525', offset: -20 }
 ]
 </script>
 
